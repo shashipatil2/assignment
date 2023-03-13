@@ -1,0 +1,1 @@
+{"type":"file","credentials":{"partnerUserID":"_REPLACE_YOUR_ID","partnerUserSecret":"_REPLACE_SECRET"},"onReceive":{"immediateResponse":["returnRandomFileName"]},"inputSettings":{"type":"combinedReportData","filters":{"startDate":"2023-03-12"}},"outputSettings":{"fileExtension":"csv"},"onFinish":[{"actionName":"markAsExported","label":"Partner name"}]}

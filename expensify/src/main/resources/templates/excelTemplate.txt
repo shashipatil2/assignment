@@ -1,0 +1,11 @@
+<#-- Header -->
+Report ID,Merchant,Amount,Category,Expense Date
+<#list reports as report>
+    <#list report.transactionList as expense>
+        ${report.reportID},<#t>
+        ${expense.merchant},<#t>
+        ${(expense.amount/100)?string("0.00")},<#t>
+        ${expense.category},<#t>
+        ${expense.created}<#lt>
+    </#list>
+</#list>
